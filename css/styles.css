@@ -1,0 +1,53 @@
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background: linear-gradient(to right, #f8e1f4, #e7d7f9);
+    border-bottom: 1px solid #d8b5e0;
+}
+header img.logo {
+    max-width: 180px;
+    margin-bottom: 10px;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #924b99;
+    font-weight: bold;
+}
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 20px;
+    border: 2px solid #f3d1e0;
+    border-radius: 10px;
+    background-color: #fff;
+}
+section img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    background-color: #f4e0f0;
+    border-top: 1px solid #e4cce2;
+    margin-top: 20px;
+}
