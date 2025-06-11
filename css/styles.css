@@ -1,53 +1,77 @@
-
 body {
-    font-family: 'Georgia', serif;
-    background-color: white;
-    margin: 0;
-    padding: 0;
-    color: #333;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: #fff0f6;
+  color: #4b2e2e;
 }
-header {
-    text-align: center;
-    padding: 30px 20px;
-    background: linear-gradient(to right, #f8e1f4, #e7d7f9);
-    border-bottom: 1px solid #d8b5e0;
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #fbe7f1;
+  border-bottom: 2px solid #dab1c5;
 }
-header img.logo {
-    max-width: 180px;
-    margin-bottom: 10px;
+
+.logo {
+  height: 80px;
+  margin-right: 20px;
 }
-nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #924b99;
-    font-weight: bold;
+
+.title-group {
+  display: flex;
+  flex-direction: column;
 }
-main {
-    max-width: 900px;
-    margin: auto;
-    padding: 30px 20px;
-    border: 2px solid #f3d1e0;
-    border-radius: 10px;
-    background-color: #fff;
+
+.main-title {
+  font-family: 'Alex Brush', cursive;
+  font-size: 2.8rem;
+  margin: 0;
 }
-section img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-top: 15px;
+
+.tagline {
+  font-size: 1.1rem;
+  color: #7a4f5c;
 }
-ul {
-    list-style: none;
-    padding-left: 0;
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background-color: #fff5f8;
+  padding: 10px;
+  border-top: 1px solid #dab1c5;
+  border-bottom: 1px solid #dab1c5;
 }
-ul li {
-    margin-bottom: 10px;
-    font-size: 1.1em;
+
+.navbar a {
+  text-decoration: none;
+  color: #8a2d57;
+  font-weight: bold;
 }
+
+.navbar a:hover {
+  color: #c94e89;
+}
+
+.intro {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  border: 1px solid #f2c5d9;
+  box-shadow: 0 0 10px rgba(224, 153, 183, 0.3);
+}
+
+.intro ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
 footer {
-    text-align: center;
-    padding: 15px;
-    font-size: 0.9em;
-    background-color: #f4e0f0;
-    border-top: 1px solid #e4cce2;
-    margin-top: 20px;
+  text-align: center;
+  padding: 15px;
+  background-color: #fce4ec;
+  font-size: 0.9rem;
 }
